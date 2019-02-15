@@ -1,0 +1,20 @@
+#####git remote add origin https://github.com/kangdooyung/Est-pilot.git
+
+#Initial settings
+apt-get install git
+git config --global core.editor vim
+git config --global user.name "Dooyung Kang"
+git config --global user.email "kangdooyung@snu.ac.kr"
+
+##############################################################
+git clone https://github.com/kangdooyung/Est-pilot.git
+
+
+###Iteration
+git add {file path}, {file path2}, ...
+#git status
+##local commit
+git commit -s
+git push origin master
+
+
